@@ -189,7 +189,7 @@ class PHMDesignEnv(gym.Env):
             if self.data['degradation-4-1'][self.current_step_7] + (1 - self.data['degradation-4-1'][self.current_step_7])*self.data['degradation-4-2'][self.current_step_8] < 0.90:
                 self.reward = -80
             else:
-                self.reward = 15
+                self.reward = 1
             pass
 
 
